@@ -241,7 +241,7 @@ nav a:hover {
 }
 
 .social-channels {
-  padding: 20px 24px 20px 24px;
+  padding: 20px;
   gap: 12px;
   border-radius: 16px;
 
@@ -255,6 +255,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 12px;
+  align-items: center;
 }
 .social-channels p {
   font-family: Poppins;
@@ -334,8 +335,7 @@ nav a:hover {
 }
 .services-content {
   display: flex;
-  justify-content: space-between;
-
+  justify-content: space-around;
   gap: 48px;
 }
 
@@ -358,6 +358,10 @@ nav a:hover {
   letter-spacing: -0.01em;
 
   color: #000000;
+}
+.line2 {
+  display: flex;
+  align-items: center;
 }
 .service-lists,
 .service-price {

@@ -56,13 +56,16 @@
     padding: 16px;
     gap: 16px;
   }
+
   .social-channels {
-    margin-top: 27px;
+    align-items: center;
     margin: 10px;
   }
   .social-channels-content {
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
   }
+
   .clients-content {
     gap: 10px;
     display: flex;
@@ -71,7 +74,10 @@
     flex-direction: column;
   }
   .clients-content .text {
-    margin-left: -20px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .clients-content .line1 img {
     rotate: 90deg;
@@ -167,7 +173,8 @@
 
   .line2 img {
     rotate: 90deg;
-    margin-left: 110px;
+    margin: 0px 100px;
+    height: 140px;
   }
 
   .reviews {
@@ -176,9 +183,11 @@
   }
   .review-section-1 {
     grid-template-columns: repeat(1, 1fr);
+    margin-left: -20px;
   }
   .review-section-2 {
     grid-template-columns: repeat(1, 1fr);
+    margin-left: -20px;
   }
   .faq {
     margin: 0px 20px;
@@ -275,11 +284,12 @@
     gap: 16px;
   }
   .social-channels {
-    margin-top: 27px;
+    align-items: center;
     margin: 10px;
   }
   .social-channels-content {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
   }
   .clients-content {
     gap: 10px;
@@ -289,7 +299,10 @@
     flex-direction: column;
   }
   .clients-content .text {
-    margin-left: -20px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .clients-content .line1 img {
     rotate: 90deg;
@@ -299,6 +312,20 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .services .header1 h1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services .header1 p {
+    margin: 30px;
+  }
+  .services-content {
+    gap: 20px;
+  }
+  .line2 img {
+    height: 140px;
+  }
   .price-list {
     padding: 12px 24px;
   }
@@ -321,10 +348,15 @@
   .videos-content-2 {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .business-videos {
+    margin-left: 90px;
+  }
   .business-videos .head {
     display: flex;
     flex-direction: column;
+  }
+  .brands-videos {
+    margin-left: 90px;
   }
   .brands-videos .head {
     display: flex;
