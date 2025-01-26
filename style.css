@@ -17,7 +17,6 @@ header {
   padding: 16px;
   gap: 10px;
   flex-wrap: wrap;
-  position: relative;
 }
 .logo {
   display: flex;
@@ -34,6 +33,7 @@ nav {
   gap: 32px;
   flex-wrap: wrap;
   position: relative;
+  padding: 10px;
 }
 nav a {
   text-decoration: none;
@@ -131,10 +131,7 @@ nav a:hover {
   position: relative;
   padding: 80px;
 }
-.banner-content-left {
-  gap: 12px;
-  margin-top: -200px;
-}
+
 .banner-content-left .star {
   text-align: center;
   color: #344054;
@@ -208,10 +205,10 @@ nav a:hover {
 }
 .banner-buttons .get-btn {
   background: linear-gradient(180deg, #b564f7 0%, #6a2f9b 100%);
-  color: #fff; /* Ensure text color is visible */
-  background-clip: border-box; /* Correct background-clip property */
-  -webkit-background-clip: border-box; /* Correct background-clip property for webkit */
-  -webkit-text-fill-color: unset; /* Ensure text fill color is unset */
+  color: #fff;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: unset;
   font-family: Poppins;
   font-weight: 500;
   font-size: 18px;
@@ -275,6 +272,14 @@ nav a:hover {
   align-items: center;
   gap: 60px;
   margin-top: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.clients-logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .clients-content .text {
   margin-left: 124px;
@@ -296,11 +301,7 @@ nav a:hover {
   text-align: left;
   color: #1d2939;
 }
-.clients-logo {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 60px;
-}
+
 .services .header1 {
   padding-top: 100px;
 }
@@ -337,6 +338,7 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   gap: 48px;
+  align-items: center;
 }
 
 .services-content .header2 {
@@ -467,19 +469,19 @@ service-lists {
 }
 .service-buttons .get-btn {
   background: linear-gradient(180deg, #b564f7 0%, #6a2f9b 100%);
-  color: #fff; /* Ensure text color is visible */
-  background-clip: border-box; /* Correct background-clip property */
-  -webkit-background-clip: border-box; /* Correct background-clip property for webkit */
-  -webkit-text-fill-color: unset; /* Ensure text fill color is unset */
+  color: #fff;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: unset;
 }
 
-.videos-content {
+.videos {
   margin: 48px 120px 100px 120px;
   padding: 28px 24px 28px 24px;
 }
 .videos-content-1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 24px;
   margin-bottom: 48px;
 }
@@ -498,10 +500,12 @@ service-lists {
 }
 
 .video {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
 
   padding: 20px 24px 32px 24px;
-  gap: 24px;
+  gap: 14px;
   border-radius: 12px;
   align-items: center;
 }
@@ -526,6 +530,7 @@ service-lists {
   height: 22px;
   margin-top: -27px;
 }
+
 .video p {
   font-family: Poppins;
   font-size: 16px;
@@ -631,6 +636,7 @@ service-lists {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .business-video p {
   font-family: Poppins;
   font-size: 20px;
@@ -797,10 +803,10 @@ service-lists {
 }
 .banner2-buttons .get-btn {
   background: linear-gradient(180deg, #b564f7 0%, #6a2f9b 100%);
-  color: #fff; /* Ensure text color is visible */
-  background-clip: border-box; /* Correct background-clip property */
-  -webkit-background-clip: border-box; /* Correct background-clip property for webkit */
-  -webkit-text-fill-color: unset; /* Ensure text fill color is unset */
+  color: #fff;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: unset;
 }
 
 .reviews {
@@ -919,6 +925,7 @@ service-lists {
 }
 .review-section-2 {
   display: grid;
+  justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-bottom: 48px;
@@ -1052,7 +1059,7 @@ service-lists {
 }
 .faq-content {
   background-color: #fff;
-  padding: 6px 10px;
+  padding: 12px;
   gap: 10px;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -1148,10 +1155,10 @@ service-lists {
 }
 .nav-buttons .get-btn {
   background: linear-gradient(180deg, #b564f7 0%, #6a2f9b 100%);
-  color: #fff; /* Ensure text color is visible */
-  background-clip: border-box; /* Correct background-clip property */
-  -webkit-background-clip: border-box; /* Correct background-clip property for webkit */
-  -webkit-text-fill-color: unset; /* Ensure text fill color is unset */
+  color: #fff;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: unset;
   font-family: Poppins;
   font-weight: 500;
   font-size: 18px;
@@ -1266,4 +1273,8 @@ hr {
 
 .play-button:hover {
   cursor: pointer;
+}
+
+img {
+  object-fit: cover;
 }

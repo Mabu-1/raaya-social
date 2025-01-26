@@ -83,12 +83,8 @@ document.addEventListener("DOMContentLoaded", () => {
   priceLists.forEach((priceList) => {
     priceList.addEventListener("click", (e) => {
       e.preventDefault();
-      if (priceList.classList.contains("active")) {
-        priceList.classList.remove("active");
-      } else {
-        priceLists.forEach((pl) => pl.classList.remove("active"));
-        priceList.classList.add("active");
-      }
+      priceLists.forEach((pl) => pl.classList.remove("active"));
+      priceList.classList.add("active");
     });
   });
 
