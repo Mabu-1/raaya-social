@@ -94,10 +94,11 @@
   .price-list .left {
     margin-top: 20px;
   }
-  .videos span {
-    display: block;
+  .videos .headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
   .videos-content {
     margin: 10px;
     padding: 12px;

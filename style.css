@@ -485,7 +485,7 @@ service-lists {
   gap: 24px;
   margin-bottom: 48px;
 }
-.videos h1 {
+.videos .headline h1 {
   font-family: Raleway;
   font-size: 48px;
   font-weight: 700;
@@ -503,7 +503,7 @@ service-lists {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-
+  justify-content: center;
   padding: 20px 24px 32px 24px;
   gap: 14px;
   border-radius: 12px;
@@ -545,6 +545,8 @@ service-lists {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
 .videos-content-2 .video1 {
   padding: 12px 24px 24px 16px;
