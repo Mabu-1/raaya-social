@@ -1,0 +1,490 @@
+/* Extra Small Mobile Responsive Design */
+@media screen and (max-width: 575px) {
+  .header-content {
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+    margin: 0px 40px;
+  }
+
+  .logo {
+    margin-bottom: 16px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    align-items: stretch;
+  }
+  nav a {
+    text-align: center;
+
+    border-bottom: 1px solid #eee;
+    justify-content: center;
+  }
+  .demo-btn {
+    width: 180px;
+  }
+  .services-dropdown {
+    position: static;
+    border: none;
+    box-shadow: none;
+  }
+  .services-dropdown a {
+    border-bottom: 1px solid #eee;
+  }
+  .nav-buttons {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 16px;
+  }
+  .nav-buttons button {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .banner {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+  .banner-content-left {
+    gap: 12px;
+    margin-top: 10px;
+  }
+  .image-content {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+  .social-channels {
+    margin-top: 27px;
+    margin: 10px;
+  }
+  .social-channels-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .clients-content {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .clients-content .text {
+    margin-left: -20px;
+  }
+  .clients-content .line1 img {
+    rotate: 90deg;
+  }
+  .clients-logo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .service-main-content {
+    margin: 20px;
+    padding: 12px;
+  }
+
+  .services .header1 {
+    padding: 100px 20px 0px 20px;
+  }
+  .price-list {
+    padding: 12px 24px;
+  }
+  .price-list .left {
+    margin-top: 20px;
+  }
+  .videos span {
+    display: block;
+  }
+
+  .videos-content {
+    margin: 10px;
+    padding: 12px;
+  }
+  .video {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .video .edit-video img {
+    width: 240px;
+  }
+  .videos-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .videos-content-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .business-videos {
+    margin-left: 10px;
+    padding: 20px 24px 20px 24px;
+    gap: 40px;
+  }
+  .business-videos .head {
+    display: flex;
+    flex-direction: column;
+  }
+  .brands-videos {
+    margin-left: 10px;
+    padding: 20px 24px 20px 24px;
+    gap: 40px;
+  }
+  .brands-videos .head {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .banner-2 .left img {
+    width: 300px;
+    height: 201px;
+
+    border-radius: 16px;
+  }
+  .banner-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-content {
+    flex-direction: column;
+  }
+
+  .line2 img {
+    rotate: 90deg;
+    margin-left: 110px;
+  }
+
+  .reviews {
+    margin: 0px 20px;
+    padding: 10px;
+  }
+  .review-section-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .review-section-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .faq {
+    margin: 0px 20px;
+    padding: 10px;
+    gap: 40px;
+  }
+  .faq .head h1 {
+    display: block;
+    margin-left: 20px;
+  }
+  .footer {
+    background-color: #fff;
+    padding: 10px;
+    gap: 40px;
+  }
+  .content {
+    margin: 0px 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer2 .links {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .right-arrow {
+    position: absolute;
+    right: 0;
+
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .right-arrow-1 {
+    position: absolute;
+    right: 0;
+
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+/* Small Mobile Responsive Design */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 16px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    align-items: stretch;
+  }
+  nav a {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    justify-content: center;
+  }
+  .services-dropdown {
+    position: static;
+    border: none;
+    box-shadow: none;
+  }
+  .services-dropdown a {
+    border-bottom: 1px solid #eee;
+  }
+  .nav-buttons {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 16px;
+  }
+  .nav-buttons button {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .banner {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+  .banner-content-left {
+    gap: 12px;
+    margin-top: 10px;
+  }
+  .image-content {
+    flex-direction: row;
+    padding: 16px;
+    gap: 16px;
+  }
+  .social-channels {
+    margin-top: 27px;
+    margin: 10px;
+  }
+  .social-channels-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .clients-content {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .clients-content .text {
+    margin-left: -20px;
+  }
+  .clients-content .line1 img {
+    rotate: 90deg;
+  }
+  .clients-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .price-list {
+    padding: 12px 24px;
+  }
+  .price-list .left {
+    margin-top: 20px;
+  }
+  .videos span {
+    display: block;
+  }
+  .videos-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .videos-content-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .business-videos .head {
+    display: flex;
+    flex-direction: column;
+  }
+  .brands-videos .head {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-content {
+    flex-direction: column;
+  }
+  .line2 img {
+    rotate: 90deg;
+    margin-left: 230px;
+  }
+  .reviews {
+    margin: 0px 60px;
+  }
+  .review-section-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .review-section-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .faq .head h1 {
+    display: block;
+    margin-left: 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .right-arrow {
+    position: absolute;
+    right: 0;
+
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .right-arrow-1 {
+    position: absolute;
+    right: 0;
+
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+/* Tablet Responsive Design */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header-content {
+    margin: 20px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .nav-buttons {
+    gap: 10px;
+  }
+  .nav-buttons button {
+    height: 40px;
+    border-radius: 24px;
+    gap: 20px;
+  }
+  .banner-content-left {
+    gap: 12px;
+    margin-top: 0px;
+  }
+  .banner {
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    gap: 28px;
+
+    position: relative;
+    padding: 40px;
+  }
+  .banner-content-right {
+    margin-top: -20px;
+  }
+
+  .clients-content {
+    gap: 30px;
+  }
+
+  .clients-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .videos span {
+    display: block;
+  }
+  .videos-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .videos-content-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .video {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .business-videos .head {
+    display: flex;
+    flex-direction: column;
+  }
+  .business-videos .head h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .brands-videos .head {
+    display: flex;
+    flex-direction: column;
+  }
+  .brands-videos .head h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+  .banner-2 .left img {
+    width: 400px;
+    height: 481px;
+  }
+
+  .review-section-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .right-arrow {
+    position: absolute;
+    right: 0;
+
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .right-arrow-1 {
+    position: absolute;
+    right: 0;
+
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
